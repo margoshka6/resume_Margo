@@ -1,0 +1,38 @@
+id,text,link,category
+0,Маргарита Барановська,,name
+1,2d-дизайн,,position
+2,olha.tryhub.work@gmail.com,,contacts
+3,380955244721,,contacts
+4,"Полтава,Україна",,contacts
+5,Telegram,,contacts
+6,LinkedIn,,contacts
+7,GitHub,,contacts
+8,"Креативний 2 D дизайнер з досвідом у створенні ілюстрацій,UI/UX,графіки для ігор та додатків.Володію Photoshop,illustrator,Figma.Працюю швидко,якісно та в різних стилях",,summary
+9,Python3,,skills
+10,OOP,,skills
+11,Kivy,,skills
+12,Pandas,,skills
+13,Matplotlib,,skills
+14,Panda3D,,skills
+15,sklearn,,skills
+16,3-D modelling,,skills
+17,2-D design,,skills
+18,Web design,,skills
+19,HTML,,skills
+20,CSS,,skills
+21,Flask,,skills
+22,Test Ruffier,,projects
+23,Google Apps Analysis,,projects
+24,Titanic predictions,,projects
+25,OliaCraft,,projects
+26,Quizes,,projects
+27,Completed 11 years of schooling at Poltava Secondary School No. 30,,education
+28,Python Start Course - Logika (2022 - 2024),,education
+29,Python Pro Course - Logika (2024 - 2025),,education
+30,Got first job thanks to efforts while studying at the university,,achievements
+31,Took part in scientific conferences while studying at the university,,achievements
+32,In the past - was an active volunteer,,achievements
+33,Received a scholarship at school for winning Olympiads,,achievements
+34,"Data analysts collect, process, and interpret data to help businesses make informed decisions. They use statistical techniques and tools like SQL, Python, and Excel to analyze trends and patterns.",,facts
+35,"They create reports, dashboards, and visualizations to present insights clearly. Their work supports decision-making in various industries, from finance and healthcare to marketing and technology.",,facts
+36,"Strong analytical thinking and problem-solving skills are essential for data analysts. They often work with large datasets, ensuring accuracy and extracting meaningful conclusions.",,facts
