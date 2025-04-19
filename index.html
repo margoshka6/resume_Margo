@@ -3,8 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Маргарита Барановська Резюме</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='styles.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
 <body>
+<div class="main">
 <h1>{{name}}</h1>
 <h3>{{position}}</h3>
 <h2>Contacts</h2>
@@ -15,7 +20,6 @@
         {%else%}
             <li>{{contact}}</li>
         {%endif%}
-    {%endfor%}
     {%endfor%}
 </ul>
 <h2>Summary</h2>
@@ -38,5 +42,6 @@
 {%for project,link in projects%}
     <a>href={{link}}>{{project}}</a>
 {%endfor%}
+</div>
 </body>
 </html>
