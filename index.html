@@ -9,10 +9,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
 <body>
+<img class="title-img-left" src="{{ url_for('static', filename='vecteezy_vibrant-paint-palette-with-brush_55782799.png') }}">
+<img class="title-img-right" src="{{ url_for('static', filename='3d-laptop-icon-free-png.webp') }}">
+    <div class="title">
+        <img src="{{ url_for('static', filename='5463383737397013754.jpg') }}">
+        <div>
+            <h1>{{name}}</h1>
+            <h3>{{position}}</h3>
+        </div>
+    </div>
 <div class="main">
-<h1>{{name}}</h1>
-<h3>{{position}}</h3>
-<h2>Contacts</h2>
+<h2>Контакти</h2>
 <ul>
     {% for contact,link in contacts%}
         {%if link%}
@@ -22,9 +29,9 @@
         {%endif%}
     {%endfor%}
 </ul>
-<h2>Summary</h2>
+<h2>Про мене</h2>
 <p>{{summary}}<p>
-<h2>Skills</h2>
+<h2>Скіли</h2>
 <table border="1">
     {%for i in range(0,skills|length,4)%}
         <tr>
@@ -38,10 +45,26 @@
         </tr>
     {%endfor%}
 </table>
-<h2>Projects</h2>
+<h2>Проєкти</h2>
 {%for project,link in projects%}
-    <a>href={{link}}>{{project}}</a>
+    <a href={{link}}>{{project}}</a>
 {%endfor%}
+    <h2>Навчання</h2>
+    <ul>
+        {% for e in education%}
+            <li>{{e}}</li>
+        {%endfor%}
+    </ul>
+
+    <h2>Досягнення</h2>
+        {% for achievement in achievements%}
+            <p>{{achievement}}</p>
+        {%endfor%}
+
+    <h2>Цікаві факти</h2>
+        {% for fact in facts%}
+            <p>{{fact}}</p>
+        {%endfor%}
 </div>
 </body>
 </html>

@@ -1,6 +1,6 @@
 id,text,link,category
 0,Маргарита Барановська,,name
-1,2d-дизайн,,position
+1,2d-дизайнер,,position
 2,margobar23@gmail.com,,contacts
 3,380955244721,,contacts
 4,"Полтава,Україна",,contacts
@@ -21,11 +21,11 @@ id,text,link,category
 19,HTML,,skills
 20,CSS,,skills
 21,Flask,,skills
-22,Test Ruffier,,projects
-23,Google Apps Analysis,,projects
-24,Titanic predictions,,projects
-25,Minecraft,,projects
-26,Quizes,,projects
+22,Test Ruffier,https://github.com/OlhaTryhub/ruffier,projects
+23,Google Apps Analysis,https://github.com/olha-tryhub-teacher/python/tree/main/pythonPro1/module3/lesson3,projects
+24,Titanic predictions,https://github.com/olha-tryhub-teacher/python/blob/main/pythonPro1/module4/lesson4/lesson4.py,projects
+25,MineCraft,https://github.com/olha-tryhub-teacher/python/tree/main/pythonPro1/module5,projects
+26,Quizes,https://github.com/olha-tryhub-teacher/python/tree/main/pythonPro1/module6,projects
 27,"Закінчила 8 класів в місті Полтава,в ліцеї №29",,education
 28,Python Start Course - Logika (2022 - 2024),,education
 29,Python Pro Course - Logika (2024 - 2025),,education

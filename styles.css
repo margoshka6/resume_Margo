@@ -1,6 +1,6 @@
 body{
-    background-image: linear-gradient(221deg, rgba(105, 5, 237, 0.5) 0%, rgba(105, 5, 237, 0.5) 14.286%,rgba(107, 30, 233, 0.5) 14.286%, rgba(107, 30, 233, 0.5) 28.572%,rgba(110, 55, 229, 0.5) 28.572%, rgba(110, 55, 229, 0.5) 42.858%,rgba(112, 80, 225, 0.5) 42.858%, rgba(112, 80, 225, 0.5) 57.144%,rgba(114, 104, 220, 0.5) 57.144%, rgba(114, 104, 220, 0.5) 71.43%,rgba(117, 129, 216, 0.5) 71.43%, rgba(117, 129, 216, 0.5) 85.716%,rgba(119, 154, 212, 0.5) 85.716%, rgba(119, 154, 212, 0.5) 100.002%),linear-gradient(76deg, rgb(189, 21, 152) 0%, rgb(189, 21, 152) 14.286%,rgb(190, 59, 155) 14.286%, rgb(190, 59, 155) 28.572%,rgb(190, 98, 159) 28.572%, rgb(190, 98, 159) 42.858%,rgb(191, 136, 162) 42.858%, rgb(191, 136, 162) 57.144%,rgb(191, 174, 165) 57.144%, rgb(191, 174, 165) 71.43%,rgb(192, 213, 169) 71.43%, rgb(192, 213, 169) 85.716%,rgb(192, 251, 172) 85.716%, rgb(192, 251, 172) 100.002%);
-
+    background-image: linear-gradient(37deg, rgb(167,171,244),rgb(25,7,100));
+    font-size: 25px;
 }
 .main{
      width:50%;
@@ -11,5 +11,44 @@ h1,h2,h3{
    font-family: "Lobster", sans-serif;
    font-weight: 400;
    font-style: normal;
+}
+
+.title {
+    background-color: rgb(167,171,244);
+    display: flex;
+    padding: 20px ;
+    align-items: center;
+    justify-content: center;
+}
+
+.title img{
+    width: 20%;
+    height: auto;
+    margin-right: 50px;
+}
+
+.main{
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.6);
+    padding: 50px;
+    color: white;
+}
+
+.title-img-left, .title-img-right {
+    position: absolute;
+}
+
+.title-img-right{
+    width: 25%;
+    height: auto;
+    top: 70px;
+    left: 73%;
+}
+
+.title-img-left{
+    width: 17%;
+    height: auto;
+    top: 150px;
+    left: 3%;
+    transform: rotate(10deg);
 }
 
